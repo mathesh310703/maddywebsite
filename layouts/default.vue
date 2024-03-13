@@ -4,6 +4,7 @@
     <main class="flex-1 w-full max-w-7xl p-4 mx-auto md:px-8 py-4 mt-5">
       <slot />
     </main>
+    <LayoutFab />
     <LayoutFooter />
   </div>
 </template>
