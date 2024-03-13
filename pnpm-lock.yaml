@@ -1,6 +1,13 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
+  '@nekooftheabyss/lala':
+    specifier: ^3.1.5
+    version: 3.1.5
   aos:
     specifier: ^2.3.4
     version: 2.3.4
@@ -849,6 +856,10 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
+
+  /@nekooftheabyss/lala@3.1.5:
+    resolution: {integrity: sha512-Kek9d7T4n8bAeQwnve/e9RTjQ7ky2GFXoV+OaezlWNURBjXzbGzicOqcpl0gfVIdWLSHd8RVfcdBSOxIFU2S/g==}
+    dev: false
 
   /@netlify/functions@2.6.0:
     resolution: {integrity: sha512-vU20tij0fb4nRGACqb+5SQvKd50JYyTyEhQetCMHdakcJFzjLDivvRR16u1G2Oy4A7xNAtGJF1uz8reeOtTVcQ==}
@@ -3251,6 +3262,7 @@ packages:
   /iconv-lite@0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dependencies:
       safer-buffer: 2.1.2
     optional: true
@@ -5127,6 +5139,7 @@ packages:
 
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+    requiresBuild: true
     optional: true
 
   /scule@1.3.0:

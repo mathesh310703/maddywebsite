@@ -6,8 +6,8 @@
           <img src="/maddy.webp" class="w-full lg:max-w-2xl" />
         </div>
         <div class="flex flex-col items-center text-center space-y-4">
-          <div class="text-3xl font-semibold">{{ name }}</div>
-          <div class="text-2xl text-cyan-300">{{ title }}</div>
+          <EffectTextRandom class="text-3xl md:text-5xl font-semibold font-mono" :text="name" />
+          <EffectTextType class="text-2xl md:text-3xl text-cyan-300 font-mono" :text="title" :delay="name.length * 300" />
           <div class="text-lg text-zinc-100">{{ description }}</div>
 
         </div>
